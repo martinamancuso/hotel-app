@@ -6,5 +6,6 @@ import { RouterLink } from '@angular/router';
 @NgModule({
   declarations: [HomeComponent],
   imports: [CommonModule, RouterLink],
+  exports: [HomeComponent],
 })
 export class HomeModule {}
